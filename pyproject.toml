@@ -1,0 +1,27 @@
+[project]
+name = "crypto_exchange_1"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Bllagden", email = "bllagden99@gmail.com"},
+]
+dependencies = [
+    "aiohttp>=3.9.3",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.3.3",
+    "black>=24.3.0",
+    "isort>=5.13.2",
+]
+
+[tool.isort]
+profile = "black"
