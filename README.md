@@ -1,21 +1,7 @@
-# crypto_exchange_1
+# Описание
 
-```
-crypto_exchange_2
-├─ .gitignore
-├─ pdm.lock
-├─ pyproject.toml
-├─ README.md
-├─ src
-│  ├─ exchanges
-│  │  ├─ base_exchange.py
-│  │  ├─ biconomy_exchange.py
-│  │  ├─ my_exchange.py
-│  │  ├─ toobit_exchange.py
-│  │  └─ __init__.py
-│  ├─ main.py
-│  └─ types_.py
-└─ tests
-   └─ __init__.py
+Для удобства я разбил код на файловую структуру, эту версию программы можно запустить из файла `src/main.py`.
 
-```
+Но так же оставил возможность запуска из оригинального файла `src/exchnage.py`, который содержит в себе весь код сразу.
+
+Обе версии программы имеют одинаково реализованный мной класс `MyExchange`.
